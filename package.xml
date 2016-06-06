@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package>
+  <version>1.0.0</version>
+  <name>Focus-Tool</name> A simple ROS script which gives a numeric value for how well a camera lens is focused in a region <description> </description>
+  <author>Abdelhamid El-Bably</author>
+  <maintainer email="ahelbably@uwaterloo.ca">Abdelhamid El-Bably</maintainer>
+  <license>BSD</license>
+
+  <!-- The *_depend tags are used to specify dependencies -->
+  <!-- Dependencies can be catkin packages or system dependencies -->
+  <!-- Examples: -->
+  <!-- Use build_depend for packages you need at compile time: -->
+  <!--   <build_depend>message_generation</build_depend> -->
+  <!-- Use buildtool_depend for build tool packages: -->
+  <!--   <buildtool_depend>catkin</buildtool_depend> -->
+  <!-- Use run_depend for packages you need at runtime: -->
+  <!--   <run_depend>message_runtime</run_depend> -->
+  <!-- Use test_depend for packages you need only for testing: -->
+  <!--   <test_depend>gtest</test_depend> -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rospy</build_depend>
+  <run_depend>rospy</run_depend>
+
+  <build_depend>image_transport</build_depend>
+  <run_depend>image_transport</run_depend>
+
+  <build_depend>roslint</build_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- You can specify that this package is a metapackage here: -->
+    <!-- <metapackage/> -->
+
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
